@@ -12,7 +12,7 @@ When using Bridge network ensure to map the following ports:
 - 8125/udp
 
 ### Volume
-Link to `/etc/telegraf/telegraf.conf` (see sample file in this repo)
+Link to `/etc/telegraf/telegraf.conf` (see sample file in this repo, it assumes the unflux server at http://192.168.0.100:8086 and a `synology` database)
 
 ### Links
 I link the container to my influxdb instance, but should work fine without
